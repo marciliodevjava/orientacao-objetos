@@ -16,4 +16,17 @@ public class Aluno {
 		this.curso.add(curso);
 		curso.alunos.add(this);
 	}
+
+	Curso obterCursoPorNome(String nome) {
+		for (Curso curso : this.curso) {
+			if (curso.nome.equalsIgnoreCase(nome)) {
+				return curso;
+			}
+		}
+		return null;
+	}
+
+	public String toString() {
+		return nome;
+	}
 }
