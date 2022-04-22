@@ -13,7 +13,7 @@ public class Sistema {
 		compra2.adicionarItem(new Produto("Impressora", 1000), 1);
 
 		Cliente cliente = new Cliente("Maria Julia Moraes");
-		cliente.compras.add(compra1);
+		cliente.adicionarCompra(compra1);
 		cliente.compras.add(compra2);
 
 		System.out.println(cliente.obterValorTotal());

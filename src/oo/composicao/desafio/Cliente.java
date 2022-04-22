@@ -13,7 +13,7 @@ public class Cliente {
 	}
 
 	void adicionarCompra(Compra compra) {
-
+		this.compras.add(compra);
 	}
 
 	double obterValorTotal() {
