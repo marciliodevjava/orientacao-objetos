@@ -8,7 +8,7 @@ public class Jogo {
 		j1.x = 10;
 		j1.y = 10;
 
-		Jogador j2 = new Jogador();
+		Heroi j2 = new Heroi();
 		j1.x = 10;
 		j1.y = 11;
 
