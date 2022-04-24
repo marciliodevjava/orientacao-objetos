@@ -12,10 +12,10 @@ public class Jogador {
 		int deltaY = Math.abs(y - oponente.y);
 
 		if (deltaX == 0 && deltaY == 1) {
-			this.vida -= 10;
+			oponente.vida -= 10;
 			return true;
 		} else if (deltaX == 1 && deltaY == 0) {
-			this.vida -= 10;
+			oponente.vida -= 10;
 			return true;
 		} else {
 			return false;
