@@ -35,6 +35,8 @@ public class CarroTeste {
 		c1.acelerrar();
 		c1.acelerrar();
 		c1.acelerrar();
+		c1.acelerrar();
+		c1.acelerrar();
 	
 		System.out.println("Primeira Acelerada: ");
 		System.out.println("Velocidade Ferrari = " + f1.velocidade + " Kmh");
@@ -71,6 +73,7 @@ public class CarroTeste {
 		f1.frear();
 		f1.frear();
 		f1.frear();
+		c1.frear();
 		c1.frear();
 		c1.frear();
 		c1.frear();
