@@ -14,4 +14,18 @@ public class Civic extends Carro{
 		super.velocidade = super.velocidadeAtual;
 		}
 	}
+	
+	@Override
+	boolean frear() {
+		if (super.velocidadeAtual >= 10) {
+			super.velocidadeAtual -= 5;
+			super.velocidade = super.velocidadeAtual;
+			return true;
+		} else if (super.velocidadeAtual >= 5) {
+			super.velocidadeAtual -= 5;
+			super.velocidade = super.velocidadeAtual;
+			return true;
+		}
+		return false;
+	}
 }

@@ -86,5 +86,6 @@ public class CarroTeste {
 		System.out.println("Segunda Freada: ");
 		System.out.println("Velocidade Ferrari = " + f1.velocidade + " Kmh");
 		System.out.println("Velocidade Civic = " + c1.velocidade + " Kmh");
+		System.out.println();
 	}
 }
