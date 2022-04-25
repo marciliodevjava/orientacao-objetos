@@ -16,5 +16,7 @@ public class Julia {
 		//System.out.println(sogra.facoDentroDeCasa);
 		//System.out.println(sogra.formaDeFalar);
 		System.out.println(sogra.todosSabem);
+	
 	}
+	
 }
