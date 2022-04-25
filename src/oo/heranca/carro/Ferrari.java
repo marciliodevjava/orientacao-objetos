@@ -6,6 +6,10 @@ public class Ferrari extends Carro {
 		super(280);
 	}
 
+	Ferrari(int velocidadeMaxima){
+		super(velocidadeMaxima);
+		super.delta+= 15;
+	}
 	@Override
 	void acelerrar() {
 		if(this.velocidade <= super.VELOCIDADE_MAXIMA) {
