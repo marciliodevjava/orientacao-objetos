@@ -2,18 +2,20 @@ package oo.heranca.carro;
 
 public class Ferrari extends Carro {
 
+	@Override
 	void acelerrar() {
-		this.velocidade = this.velocidadeAtual += 15;
+		super.velocidade = super.velocidadeAtual += 15;
 	}
 
+	@Override
 	boolean frear() {
-		if (this.velocidadeAtual >= 10) {
-			this.velocidadeAtual -= 10;
-			this.velocidade = this.velocidadeAtual;
+		if (super.velocidadeAtual >= 10) {
+			super.velocidadeAtual -= 10;
+			super.velocidade = super.velocidadeAtual;
 			return true;
-		} else if (this.velocidadeAtual >= 5) {
-			this.velocidadeAtual -= 5;
-			this.velocidade = this.velocidadeAtual;
+		} else if (super.velocidadeAtual >= 5) {
+			super.velocidadeAtual -= 5;
+			super.velocidade = super.velocidadeAtual;
 			return true;
 		}
 		return false;
