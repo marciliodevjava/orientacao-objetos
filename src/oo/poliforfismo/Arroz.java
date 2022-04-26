@@ -1,20 +1,9 @@
 package oo.poliforfismo;
 
-public class Arroz {
-
-	private double peso;
+public class Arroz extends Comida{
 	
 	public Arroz(double peso){
-		setPeso(peso);
-	}
-	public double getPeso() {
-		return peso;
-	}
-
-	public void setPeso(double peso) {
-		if (this.peso >= 0) {
-			this.peso = peso;
-		}
+		super(peso);
 	}
 
 }
