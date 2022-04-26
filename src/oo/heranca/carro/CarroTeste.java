@@ -4,7 +4,7 @@ public class CarroTeste {
 
 	public static void main(String[] args) {
 
-		Carro f1 = new Ferrari(300);
+		Ferrari f1 = new Ferrari(300);
 		f1.acelerrar();
 		f1.acelerrar();
 		f1.acelerrar();
@@ -24,7 +24,7 @@ public class CarroTeste {
 		f1.acelerrar();
 		f1.acelerrar();
 		
-		Carro c1 = new Civic();
+		Civic c1 = new Civic();
 		c1.acelerrar();
 		c1.acelerrar();
 		c1.acelerrar();
@@ -48,9 +48,7 @@ public class CarroTeste {
 		
 		f1.acelerrar();
 		f1.acelerrar();
-		f1.acelerrar();
-		f1.acelerrar();
-		f1.acelerrar();
+		f1.ligarTurbo();
 		c1.acelerrar();
 		c1.acelerrar();
 		c1.acelerrar();
