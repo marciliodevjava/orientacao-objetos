@@ -3,8 +3,8 @@ package oo.abstrato;
 public abstract class Animal {
 
 	public String respirar() {
-		return "CO²";
+		return "Usando oxigêncio";
 	}
 	
-	public abstract double mover();
+	public abstract String mover();
 }
