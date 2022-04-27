@@ -1,6 +1,6 @@
 package oo.poliforfismo;
 
-public class Comida{
+public abstract class Comida{
 
 	private double peso;
 
